@@ -1,0 +1,13 @@
+from PIL import Image, ImageFilter
+img = Image.open('backgroundzoom.jpg')
+img2 = img.filter(ImageFilter.BLUR)
+img3 = img2.filter(ImageFilter.BLUR)
+img4 = img3.filter(ImageFilter.BLUR)
+img5 = img4.filter(ImageFilter.BLUR)
+img6 = img5.filter(ImageFilter.BLUR)
+img7 = img6.filter(ImageFilter.BLUR)
+img8 = img7.filter(ImageFilter.BLUR)
+img9 = img8.filter(ImageFilter.BLUR)
+img10 = img9.filter(ImageFilter.BLUR)
+img10.save('background_mo.jpg')
+img10.show()
